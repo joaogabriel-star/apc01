@@ -5,8 +5,13 @@
 #include <stdio.h>
 
 int main() {
-  float nota1 = 5.5f;
-  float nota2 = 4.0f;
+  float nota1;
+  float nota2;
+
+  printf("Qual valor da nota 1? ");
+  int deu_certo = scanf("%f", &nota1);
+  printf("Qual valor da nota 2? ");
+  deu_certo = scanf("%f", &nota2);
 
   0.4 * nota1 + 0.6 * nota2;
   float media = 0.4 * nota1 + 0.6 * nota2;

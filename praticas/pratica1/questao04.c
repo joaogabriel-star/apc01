@@ -6,7 +6,7 @@
 
 int main() {
   float preco_inicial = 100.0f;
-  float preco_final = 0.0f;
+  float preco_final = 0.0f;~³
   
   const float ICMS = 0.17f;
   const float COFINS = 0.076f;
